@@ -5,7 +5,7 @@ import 'package:movieproject/model/model.dart';
 
 import '../model/model.dart';
 
-final String apiKey = 'd3b95856';
+final String apiKey = 'removed';
 
 Future<List<MovieModel>> fetchMovies(action) async {
   final String apiUrl = 'http://www.omdbapi.com/?apikey=$apiKey&s=$action&page=1';
